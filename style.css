@@ -1,0 +1,142 @@
+body {
+    width: 1200px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.background-image {
+    min-height: 515px;
+    padding-top: 35px;
+    background-image: url("../img/wheat-back.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.page-header img {
+    float: left;
+    width: 145px;
+    height: 80px;
+}
+
+.main-nav {
+    float: left;
+    width: 700px;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid rgba(221, 222, 216, 0.2);
+    border-bottom: 1px solid rgba(221, 222, 216, 0.2);
+}
+
+.main-nav li {
+    float: left;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 0;
+    margin-left: 50px;
+    padding: 0;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-nav a:hover {
+    color: #ffcb78;
+}
+
+.main-nav :active {
+    color: rgba(255, 203, 120, 0.3);
+}
+
+.promo {
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+}
+
+.container h1,
+.container h3 {
+    font-size: 40px;
+    line-height: 61px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    margin-top: 94px;
+}
+
+.container .new-first {
+    float: left;
+    width: 400px;
+    padding: 0;
+    margin-bottom: 180px;
+}
+
+.wrapper .new-second {
+    float: right;
+    width: 400px;
+    padding: 0;
+    margin-bottom: 180px;
+}
+
+.wrapper {
+    
+    padding-left: 95.5;
+    padding-right: 95.5;
+    margin: 0 auto;
+    background-color: rgb(255, 203, 120);
+}
+
+.color {
+    background-color: rgb(255, 203, 120);
+}
+
+.color::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.wrapper li {
+    list-style: none;
+       
+}
+
+.wrapper .list {
+    float: left;
+    width: 215px;
+    margin-top: 170px;
+    margin-bottom: 210px;
+    margin-right: 150px;
+}
+
+.wrapper .list:last-child {
+    float: right;
+    margin-right: 0;
+}
+
+.wrapper h2 {
+    font-size: 20pt;
+    line-height: 30pt;
+    width: 215px;
+    height: 25px;
+}
